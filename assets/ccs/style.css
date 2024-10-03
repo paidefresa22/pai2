@@ -1,0 +1,37 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+h1{
+    front-size: 48px;
+    color: brown;
+    front-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+p{
+    front-size: 12px;
+    front-weight: 900px;
+    color:blue;
+}
+ul{
+    list-style: none;
+    list-height: 1.5em;
+    text-decoration: none;
+    front-size: 24px;
+}
+.h2{
+    
+    color:green;
+    front-weight: 600;
+    text-decoration: dashed;
+    front-size: 50px;
+}
+.table{
+    background-color: black;
+    color: white;
+}
+.tr{
+   background-color: black;
+   color: aqua;
+}
+    
