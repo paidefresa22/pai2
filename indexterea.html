@@ -4,31 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu café preferido</title>
+    <link rel="stylesheet" href="assets/css/style3.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.6.0-web/css/fontawesome.css">
+    <link href="assets/fontawesome-free-6.6.0-web/css/solid.css" rel="stylesheet">
 </head>
-<link rel="stylesheet" href="assets/css/style3.css">
+
 <body>
     <header>
+        <img src="assets/images/coffe.jpg" alt="logo" class="logo-header">
         <nav class="navbar">
+
             <ul class="menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Noticias</a></li>
+                <li><a href="indexterea.html">Inicio</a></li>
+                <li><a href="Ubicación.html">Ubicación</n></a></li>
                 <li><a href="#">Productos</a></li>
             </ul>
         </nav>
     </header>
+
     <section class="servicios">
-        <article class="card">
+        <article class="card"> 
+            <p><i class="fa-solid fa-mug-hot fa-xl"></i></p>
             <h3>Café latte</h3>
             <p>Contiene uno o dos tragos de espresso, mucha leche al vapor y una fina capa final de leche espumosa encima.</p>
+        
         </article>
         <article class="card">
+            <p><i class="fa-solid fa-mug-hot fa-xl"></i></p>
             <h3>Capuchino</h3>
             <p> Contiene expreso, vapor y espuma de leche a partes iguales.</p>
         </article>
         <article class="card">
+            <p><i class="fa-solid fa-mug-hot fa-xl"></i></p>
             <h3>Café moca</h3>
             <p>Contiene espresso, lleno de cuerpo, con salsa de chocolate y leche al vapor; lo completamos con crema batida.</p>
         </article>
     </section>
-</body>
+
+    <section class="titulo-seccion primary-color padding-top-100x padding-bottom-100x">
+        <h2 class="white-color">¡PRUEBA NUESTRO DELICIOSO CAFE YA!</h2>
+        <p class="white-color">Si vienes por primera vez te regalamos una galleta</p>
+        <button class="primary-button" type="button">PIDE YA</button>
+    </section>
+
+    <section class="ubicacion padding-top-100x padding-bottom-100x">
+        <article class="left-column padding-50px">
+            <h2 class="primary-font">CONTACTANOS</h2>
+            <p>Para mayor información y pedir nuestros productos dejanos un mensaje</p>
+            <p>En unos momentos te contestaremos</p>
+            <h3>Sede Maracay</h3>
+        </article>
+ 
+        <article class="right-column">
+            <form name="form1" action="#" method="get">
+                <label>Nombre</label>
+                <input type="text" name="Nombre" placeholder="Escreibe tu nombre">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Escreibe tu email">
+                <label>Teléfono</label>
+                <input type="tel" name="tel">
+                <label>Mensaje</label>
+                <textarea rows="5" name="mensaje" maxlength="250">
+                </textarea>
+                <input type="submit" value="ubicacion">
+            </form>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <article class="column-1">
+            <img src="assets/images/coffe.jpg" alt="logo" class="logo-footer">
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/profile.php?id=61556929803188&mibextid=ZbWKwL" target="_blank"><i class="fa-solid fa-heart"></i></a></li>
+                <li> <a href="https://www.instagram.com/pau.5408?igsh=YzgxbjIyY3ZleXpt" target="_blank"><i class="fa-solid fa-heart"></i> </a></li>
+                <li> <a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li> <a href="https://www.tiktok.com/@stephen53wbdhke?_t=8qSLXGbLP0w&_r=1" target="_blank"><i class="fa-solid fa-heart"></i> </a></li>   
+            </ul>
+        </article>
+
+        <article class="column-1">
+            <h2 class="white-color">Productos</h2>
+            <ul class="footer--servicios">
+                <li><a href="#">Café latte</a></li>
+                <li><a href="#">Capuchino</a></li>
+                <li><a href="#">Café moca</a></li>
+            </ul>
+        </article>
+
+        <article class="column-1">
+            <h2 class="white-color">Contacto</h2>
+            <ul class="footer--servicios">
+                <li><a href="https://wa.link/qs45zz" target="_blank"><i class="fa-solid fa-mobile-retro"></i> 0426-6338146</a></li>
+                <li><a href="mailto:pauceleste41@gmail.com" target="_blank"><i class="fa-solid fa-circle-check"></i>pauceleste41@gmail.com</a></li>
+                <li><a href="https://maps.app.goo.gl/Zgag6HJsoP53R4pf9" target="_blank"><i class="fa-solid fa-street-view"></i>23 de enero calle infantil</a></li>
+            </ul>
+        </article>
+    </footer>
+</body> 
 </html>
