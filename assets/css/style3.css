@@ -67,6 +67,7 @@ menu li a{
     color:#705C53;
     font-weight: 200;
     text-align: center ;
+   
 }
 .card p{
     text-align: center;
@@ -229,7 +230,7 @@ p{
     border: 3px white;
     box-shadow: 5px 5px 15px black;
     border-radius: 50px;
-    margin-left: 740px;
+    margin-left: 700px;
     margin-top: 20px;
 
 }
@@ -248,3 +249,5 @@ p{
     font-size: 18px;
 
 }
+
+ 
