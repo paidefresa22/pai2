@@ -78,6 +78,8 @@ p{
 }
 .titulo-seccion{
     text-align: center;
+    color: #705C53;
+    
 }
 .titulo-seccion h2{
     font-size: 40px;
@@ -85,7 +87,7 @@ p{
     line-height: 1.3em;
 }
 .titulo-seccion p{
-    font-size: 20px;
+    font-size: 40px;
     line-height: 1.4em;
 }
 .primary-color{
@@ -215,4 +217,34 @@ p{
 .lista-ubicacion li a{
     color: #705C53;
     text-decoration: none;
+}
+.col-cafe{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+   
+.border-white{
+    border: 3px white;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 50px;
+    margin-left: 740px;
+    margin-top: 20px;
+
+}
+.col-1{
+    padding: 30px;
+    padding-right: 10%;
+    line-height: 1.8em;
+    font-size: 30px;
+    color: #705C53;
+}
+.card ul li{
+    list-style: square;
+    font-family: monospace;
+    line-height: 2.2em;
+    color: #705C53;
+    font-size: 18px;
+
 }
